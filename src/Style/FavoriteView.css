@@ -1,0 +1,22 @@
+.outer-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.movie-card {
+    height: 200px;
+}
+
+
+.favorite-container{
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+
+.favorite-container p {
+    font-size: 2vw;
+    margin-bottom: 0;
+}

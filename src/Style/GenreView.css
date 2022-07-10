@@ -1,0 +1,52 @@
+:root{
+    --primary: #90EE90;
+    --secondary: #ee9090;
+    --background: #141219;
+}
+
+.genre-details-container {
+    position: absolute;
+    z-index: -1;
+    background-color: #141219;
+    padding: 10% 5% 5% 5%;
+    width: 100vw;
+}
+
+.genre-description {
+    padding-top: 5%;
+    font-size: 2vw;
+}
+
+.movies-container {
+    padding-top: 5%
+}
+
+.movie-cards {
+    display: flex;
+    padding: 3% 0;
+    flex-wrap: wrap;
+}
+
+.movie-cards .card {
+    padding-left: 0;
+    padding-top: 3%;
+}
+
+.view-movie-button {
+    background-color: #141219;
+    color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #fff;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.view-movie-button:hover {
+    background-color: #141219;
+    opacity: 0.9;
+    border-color: #90EE90;
+}
+
+
+
+

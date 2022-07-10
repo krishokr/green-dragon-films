@@ -1,0 +1,119 @@
+.movie-card {
+    height: 200px;
+}
+
+.movie-card:hover {
+    cursor: pointer;
+}
+
+.background {
+
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    font-size: 2vh;
+}
+
+.background:hover {
+    display: none;
+}
+
+
+
+
+
+.foreground {
+    position: absolute;
+    z-index: 1; 
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-body h1{
+   font-size: 2vw;
+   text-align: center;
+}
+
+.button-center {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    padding: 3%;
+}
+.button-center button {
+    margin: 3%;
+}
+
+/* .mouse-leave-transition {
+    transition: 2s;
+} */
+
+img  {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary-custom{
+    background-color: #141219;
+    color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.btn-primary-custom:hover {
+    background-color: #141219;
+    opacity: 0.9;
+    border-color: #90EE90;
+}
+
+.fa-circle-info {
+    font-size: 2em;
+    padding-left: 5%;
+    transition: 0.5s;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fa-circle-info:hover {
+    font-size: 2em;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 5%;
+    transition: 0.5s;
+}
+
+.fa-heart {
+    font-size: 2em;
+    color: rgba(136, 8, 8, 0.5);
+    padding-left: 5%;
+    transition: 0.5s;
+}
+
+.fa-heart:hover {
+    color: rgba(136, 8, 8, 1);
+}
+
+.fa-check {
+    font-size: 2em;
+    color: rgba(144, 238, 144, 0.5);
+    padding-left: 5%;
+}
+.fa-check:hover {
+    font-size: 2em;
+    color: rgba(144, 238, 144, 1);
+    padding-left: 5%;
+}
+

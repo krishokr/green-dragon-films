@@ -1,0 +1,61 @@
+.movie-card {
+    height: 200px;
+    margin-top: 10%;
+}
+
+.mv-header-container {
+    position: inherit;
+    z-index: inherit;
+}
+
+.main-view-container {
+    max-height: 250vh;
+}
+
+.genre-container{
+    margin: auto;
+    height: auto;
+    width: 80vw;
+  
+}
+
+
+.featured-container {
+    margin: auto;
+    width: 80vw;
+    margin-bottom: 3%;
+}
+
+
+.genre-box-container {
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100%;
+}
+
+.genre-box {
+    border-radius: 5px;
+    width: 20%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 18, 25, 0.5);
+    transition: 0.5s;
+}
+
+.genre-box:hover {
+    cursor: pointer;
+    background-color: #000;
+    border: 1px solid #90EE90;
+    color: #90EE90;
+}
+
+.featured-movies {
+    margin: auto;
+}
+
+.container-title {
+    font-size: 2vw;
+}

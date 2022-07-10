@@ -1,0 +1,186 @@
+:root{
+  --primary: #90EE90;
+  --secondary: #ee9090;
+  --background: #141219;
+}
+
+html, body {
+
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+  background: hsla(257, 16%, 8%, 1);
+
+background: radial-gradient(circle, hsla(257, 16%, 8%, 0.5) 0%, hsla(257, 16%, 8%, 0.9) 90%, hsla(257, 16%, 8%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(257, 16%, 8%, 0.5) 0%, hsla(257, 16%, 8%, 0.9) 90%, hsla(257, 16%, 8%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(257, 16%, 8%, 0.5) 0%, hsla(257, 16%, 8%, 0.9) 90%, hsla(257, 16%, 8%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#141219", endColorstr="#141219", GradientType=1 );
+  color: #D8DFEE;
+}
+
+.edit-z-index .header-container{
+  position: absolute;
+  z-index: 2;
+}
+
+
+
+
+
+/* Login/Register Styling */
+.register-container {
+  display: flex;
+}
+
+.intro-text-step {
+  padding-bottom: 2%;
+}
+
+.view-login-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.view-login-container button {
+  width: 100px;
+  align-self: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background);
+  width: 50vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.left h3 {
+  text-align: center;
+  padding: 0 8%;
+  font-size: 1.7vw;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-one-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.step-one-container h1 {
+  font-size: 1.5vw;
+  padding-bottom: 3%;
+}
+
+.step-one-container .register-button {
+  align-self: center;
+  width: 50%;
+}
+
+
+.login-form{
+  width: 25vw;
+}
+.register-form{
+  width: 25vw;
+}
+
+.btn-primary-custom{
+  background-color: #141219;
+  color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #fff;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.btn-primary-custom:hover {
+  background-color: #141219;
+  opacity: 0.9;
+  border-color: #90EE90;
+}
+
+.mobile-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30%;
+}
+
+.title-text {
+  align-self: center;
+  text-align: center;
+  width: 70%;
+}
+.title-text h1 {
+  font-size: 6vh;
+}
+
+.title-text h3 {
+  font-size: 3vh;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.component-text {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(max-width: 768px) {
+  .register-form {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .intro-text-step {
+    font-size: 4vw;
+  }
+
+  .form-control {
+    width: 300px;
+  }
+
+  .step-one-input-container {
+    text-align: center;
+  }
+  .form-control {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .step-one-input-container button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .login-button {
+    
+  }
+
+}
+
+
+
+
+

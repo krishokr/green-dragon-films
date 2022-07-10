@@ -1,0 +1,22 @@
+/* Card Styling */
+.card {
+    background-color: var(--background);
+    /* background: hsla(265, 53%, 29%, 1);
+  
+    background: linear-gradient(360deg, hsla(265, 53%, 29%, 1) 0%, hsla(0, 73%, 75%, 1) 100%);
+  
+    background: -moz-linear-gradient(360deg, hsla(265, 53%, 29%, 1) 0%, hsla(0, 73%, 75%, 1) 100%);
+  
+    background: -webkit-linear-gradient(360deg, hsla(265, 53%, 29%, 1) 0%, hsla(0, 73%, 75%, 1) 100%);
+  
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#432371", endColorstr="#EE9090", GradientType=1 ); */
+  }
+  
+  .card {
+    flex-direction: row;
+  }
+
+.v-filter {
+  margin-bottom: 5%;
+  padding-top: 0;
+}
